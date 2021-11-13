@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Quicksand&display=swap');
+body {
+    background-color: #ECEDEF;
+    margin: 0;
+    padding: 0;
+    background-image: url('/images/wave-img-2.png');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.calculator-bx {
+    width: 403px;
+    border-radius: 20px;
+    margin-left: 175px;
+}
+
+.calculator {
+    background-color: white;
+    border-radius: 10px;
+}
+
+table {
+    margin: auto;
+    padding: 20px 0 5px 0;
+}
+
+input {
+    font-size: 60px;
+    width: 100%;
+    outline: none;
+    text-align: end;
+    background: red;
+    border: none;
+    padding: 50px 30px;
+    font-weight: 600;
+    color: white;
+    border-radius: 10px 10px 0 0;
+}
+
+::placeholder {
+    color: white;
+}
+
+button {
+    border-radius: 50%;
+    font-size: 32px;
+    background: #ECEDEF;
+    margin: 3px;
+    line-height: 49px;
+    font-weight: 600;
+    border: none;
+    color: #625D5A;
+    width: 75px;
+    height: 67px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.title {
+    position: absolute;
+    top: 28%;
+    left: 11%;
+}
+
+.title .bx {
+    position: relative;
+}
+
+.title .bx h1 {
+    font-size: 80px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: red;
+
+}
+
+.title .bx h1 span {
+    font-size: 100px;
+}
+
+.title .bx span.text {
+    position: absolute;
+    top: 16px;
+    left: 43px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+.title .bx p {
+    position: absolute;
+    bottom: -3px;
+    right: 78px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.title .bx .circle{
+    position: absolute;
+    width: 64%;
+    height: 226%;
+    background-color: white;
+    top: -63px;
+    border-radius: 50%;
+    z-index: -1;
+    left: -28px;
+}
